@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#radio-button-container{
+    border: 2px solid blue;
+    height: 100px;
+    width: 600px;
+}
+
+
+#radio-button-container-list{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.radio-button-item{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.radio-button-item-circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    border-radius: 50%;
+    height: 20px;
+    width:20px;
+}
+
+
+.radio-button-item-inner-circle{
+
+    border-radius: 50%;
+    height: 10px;
+    width:10px;
+    background-color: transparent;
+}
+
+.active{
+    background-color: blue;
+}

@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.divUpload{
+    position:relative;
+    margin: 30px;
+    border: 2px solid darkblue;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 300px;
+    height: 150px;
+    user-select: none;
+}
+
+.icon{
+    color:darkblue;
+    font-size: 34px;
+}
+
+
+.iconRemove{
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    color:rgb(82, 81, 81);
+    font-size: 22px;
+}
+
+h2{
+    color: darkblue;
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+
+.divUpload--selected{
+    border: 2px solid darkgreen;
+}
+
+.divUpload--selected .icon{
+    color:darkgreen;
+}
+
+.divUpload--selected h2{
+    color:darkgreen;
+}
+
+.hide{
+    display: none;
+}
